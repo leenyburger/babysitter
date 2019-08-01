@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+sally = Parent.create(name: "Sally", num_children: 3, location: "San Diego")
+amanda_sitter = Sitter.create(name: "Amanda", years_experience: 10, location: "San Diego")
